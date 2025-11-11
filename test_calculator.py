@@ -1,6 +1,7 @@
-# https://github.com/PokeKoa/lab10-MQ-FL
-# Partner 1: Mike Quick
-# Partner 2: Frankie Lin
+#https://github.com/PokeKoa/lab10-MQ-FL/tree/main
+#Partner 1: Mike Quick
+#Partner 2: Frankie Lin
+
 import unittest
 from calculator import *
 
