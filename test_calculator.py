@@ -33,11 +33,13 @@ class TestCalculator(unittest.TestCase):
     def test_divide_by_zero(self):
         with self.assertRaises(ZeroDivisionError):
             divide(5,0)
+        with self.assertRaises(ZeroDivisionError):
+            divide(0,0)
 
     def test_logarithm(self):
-        self.assertEqual(logarithm(27,3),3)
-        self.assertEqual(logarithm(1, 10),0)
-        self.assertAlmostEqual(logarithm(100,10),2)
+        self.assertEqual(logarithm(3,27),3)
+        self.assertEqual(logarithm(10, 1),0)
+        self.assertAlmostEqual(logarithm(10,100),2)
 
 
 
