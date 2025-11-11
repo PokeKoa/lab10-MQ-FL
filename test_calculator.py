@@ -38,7 +38,6 @@ class TestCalculator(unittest.TestCase):
     # ##########################
     
     def test_log_invalid_argument(self): # 1 assertion
-         # call log function inside, example:
         with self.assertRaises(ValueError):
             log(0, 5)
 
@@ -52,9 +51,6 @@ class TestCalculator(unittest.TestCase):
             square_root(-64)
         self.assertEqual(square_root(64), 8)
         self.assertEqual(square_root(4096), 64)
-
-    #     fill in code
-    ##########################
 
 # Do not touch this
 if __name__ == "__main__":
